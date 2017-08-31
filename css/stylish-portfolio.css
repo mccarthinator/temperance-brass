@@ -253,22 +253,32 @@ h3 {
 /* Prevent carousel from being distorted if for some reason image doesn't load  */
 .carousel .item {
    min-height: 400px;
+   margin-top: 40px;
+   margin-bottom: 10px;
 }
 
 p.text-center.carouselItem {
-  /* margin-top: 80px;
-  margin-left: 200px; */
+  margin-top: 10px;
   width: 70%;
   height: auto;
   font-size: larger;
   margin: 0 auto;
 }
 
+.glyphicon-chevron-right:before {
+  margin-right: 20px;
+  color: blue;
+}
+
+.glyphicon-chevron-left:before {
+  margin-left: 20px;
+  color: blue;
+}
 
 /* Events */
 
 .upcomingShows {
-  color: #b3b3b3;
+  color: #F2F4F6;
 }
 
 #events {
