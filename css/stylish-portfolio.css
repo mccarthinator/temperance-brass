@@ -240,30 +240,28 @@ h3 {
   padding-bottom: 20px;
 }
 
-#reviews {
+/* #reviews {
   background-color: #999;
   width: 100%;
   height: auto;
-}
+} */
 
 /* ////carousel stuff ///// */
 .carousel{
   background: #F4E9E0;
 }
-.carousel .item{
-  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-}
+/* Prevent carousel from being distorted if for some reason image doesn't load  */
 .carousel .item {
-  margin: 0 auto; /* Align slide image horizontally center */
+   min-height: 400px;
 }
-
 
 p.text-center.carouselItem {
-  margin-top: 80px;
-  margin-left: 200px;
+  /* margin-top: 80px;
+  margin-left: 200px; */
   width: 70%;
   height: auto;
   font-size: larger;
+  margin: 0 auto;
 }
 
 
