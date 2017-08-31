@@ -252,13 +252,13 @@ h3 {
 }
 /* Prevent carousel from being distorted if for some reason image doesn't load  */
 .carousel .item {
-   min-height: 400px;
-   margin-top: 40px;
-   margin-bottom: 10px;
+   /* min-height: 200px; */
+   /* margin-top: 40px;
+   margin-bottom: 10px; */
 }
 
 p.text-center.carouselItem {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   width: 70%;
   height: auto;
   font-size: larger;
@@ -273,6 +273,21 @@ p.text-center.carouselItem {
 .glyphicon-chevron-left:before {
   margin-left: 20px;
   color: blue;
+}
+
+#empirical {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#glenbard {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+#LPHS {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Events */
