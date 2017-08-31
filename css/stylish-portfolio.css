@@ -246,8 +246,24 @@ h3 {
   height: auto;
 }
 
-.carousel-indicators li {
+/* ////carousel stuff ///// */
+.carousel{
+  background: #F4E9E0;
+}
+.carousel .item{
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item {
+  margin: 0 auto; /* Align slide image horizontally center */
+}
 
+
+p.text-center.carouselItem {
+  margin-top: 80px;
+  margin-left: 200px;
+  width: 70%;
+  height: auto;
+  font-size: larger;
 }
 
 

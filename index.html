@@ -255,7 +255,65 @@
 
 
 <!-- reviews section -->
-<section id="reviews" class="about">
+<section id="reviews">
+  <div class="bs-example">
+      <div id="myCarousel" class="carousel slide" data-interval="false"">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>   
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <p class="text-center carouselItem"><i>Why Temperance Brass?  Who else could spark a room full of people to sing along to Queen’s Bohemian Rhapsody on a Sunday afternoon? NO ONE! I can't wait until they perform again in our taproom.</i>
+                    <br>
+                    <br>
+                    <strong>Steve Milford</strong><br>
+                    General Manager, Empirical Taproom and Brew Pub, Chicago</p>
+              </div>
+              <div class="item">
+                  <p class="text-center carouselItem"><i>My students loved the performance given by the Temperance Brass during our band classes! Their professional & polished performance, eclectic repertoire, and wonderful personalities engaged all of my students. Hearing such outstanding musicians is an opportunity that many of my students are not able to experience on a regular basis. I would love to have them perform for us again!</i>
+                    <br>
+                    <br>
+                    <strong>Lauren Whisnant</strong><br>
+                    Director of Bands, Glenbard North High School, IL</p>
+              </div>
+              <div class="item">
+                  <p class="text-center carouselItem"><i>Working with the Temperance Brass was an incredible experience for myself and my students. 
+                      The expertise and professionalism they brought to the classroom was exceptional. We were fortunate to 
+                      have them as guest artists due to a grant they wrote through the Chicago 
+                      Civic Orchestra. Over the course of their four residency visits to LPHS they entertained, 
+                      enlightened, and educated my students. They quickly formed a bond with the students, and my students 
+                      were excited to working with them each time. At the conclusion of the 
+                      residency, my bands had the opportunity to play a special arrangement of Symphonie Fantastique 
+                      alongside the Temperance Brass, as well as attend a Chicago Civic Orchestra performance of the same 
+                      work to culminate the material they had been learning in the classroom. If given the opportunity, I would work 
+                      with the Temperance Brass again and highly encourage any other educator to do the same!</i>
+                    <br>
+                    <br>
+                    <strong>Chad Smith</strong><br>
+                    Director of Bands, Lincoln Park High School, Chicago</p>
+              </div>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- <section id="reviews" class="about">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -264,7 +322,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <p class="text-center" alt="First slide"><i>Why Temperance Brass?  Who else could spark a room full of people to sing along to Queen’s Bohemian Rhapsody on a Sunday afternoon? NO ONE! I can't wait until they perform again in our taproom.</i>
+            <p><i>Why Temperance Brass?  Who else could spark a room full of people to sing along to Queen’s Bohemian Rhapsody on a Sunday afternoon? NO ONE! I can't wait until they perform again in our taproom.</i>
               <br>
               <br>
               <strong>Steve Milford</strong><br>
@@ -272,7 +330,7 @@
           </div>
           
           <div class="carousel-item">
-            <p class="text-center" alt="Second slide"><i>My students loved the performance given by the Temperance Brass during our band classes! Their professional & polished performance, eclectic repertoire, and wonderful personalities engaged all of my students. Hearing such outstanding musicians is an opportunity that many of my students are not able to experience on a regular basis. I would love to have them perform for us again!</i>
+            <p><i>My students loved the performance given by the Temperance Brass during our band classes! Their professional & polished performance, eclectic repertoire, and wonderful personalities engaged all of my students. Hearing such outstanding musicians is an opportunity that many of my students are not able to experience on a regular basis. I would love to have them perform for us again!</i>
               <br>
               <br>
               <strong>Lauren Whisnant</strong><br>
@@ -280,7 +338,7 @@
           </div>
           
           <div class="carousel-item">
-            <p class="text-center" alt="Third slide"><i>Working with the Temperance Brass was an incredible experience for myself and my students. 
+            <p><i>Working with the Temperance Brass was an incredible experience for myself and my students. 
                 The expertise and professionalism they brought to the classroom was exceptional. We were fortunate to 
                 have them as guest artists due to a grant they wrote through the Chicago 
                 Civic Orchestra. Over the course of their four residency visits to LPHS they entertained, 
@@ -305,7 +363,7 @@
           <span class="sr-only">Next</span>
         </a>
     </div>
-</section>
+</section> -->
  
   <!-- current working code -->
 <!-- <section id="reviews" class="about">
@@ -476,9 +534,9 @@ $(document).scroll(function() {
   }
 });
 ///// carousel functionality ////
-// $(document).ready(function() {
-// $('.carousel').carousel()
-// });
+$(document).ready(function() {
+$('.carousel').carousel()
+});
 
 </script>
 
